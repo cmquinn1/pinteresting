@@ -1,5 +1,17 @@
 <div class="jumbotron center">
 	<h1>Welcome to my app!  One Month Rails</h1>
+	<% if user_signed_in? %>
+		Welcome!
+
+	<% else %>
+
+	<p>
 	<div class="jumbotron center">
-	<p>Click here to <%= link_to "Sign up", new_user_registration_path, class:  "btn btn-primary btn-lg" %>.</p>
-	<div
+		<%= link_to "Log in", new_user_session_path, class: "btn btn-default btn-lg" %>
+		<%= link_to "Sign up", new_user_registration_path, class: "btn btn-default btn-lg" %>
+
+	</p>
+
+	<% end %>
+
+	</div>

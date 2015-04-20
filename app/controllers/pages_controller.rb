@@ -6,5 +6,5 @@ def about
   end
 
 def Gallery
-	end
+  end
 end
