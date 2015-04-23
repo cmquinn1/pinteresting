@@ -10,6 +10,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'bootstrap-sass'
 gem 'tzinfo-data', platforms:  [:mingw,  :mswin,  :x64_mingw]
 gem 'devise', '~> 3.1.0.rc2'
+
 group :development, :test do
 	gem 'sqlite3'
 end
@@ -22,4 +23,5 @@ end
 group :doc do
 	# bundle exe rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
+  
 end
