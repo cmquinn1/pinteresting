@@ -10,6 +10,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'bootstrap-sass'
 gem 'tzinfo-data', platforms:  [:mingw,  :mswin,  :x64_mingw]
 gem 'devise', '~> 3.1.0.rc2'
+gem 'paperclip', '~> 3.0'
 
 group :development, :test do
 	gem 'sqlite3'
